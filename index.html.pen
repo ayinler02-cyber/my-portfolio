@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suleiman Web Design</title>
+<style>
+body{margin:0;font-family:Arial;background:#f8fafc}
+.hero{background:#0f172a;color:white;padding:60px 20px;text-align:center}
+.btn{display:inline-block;background:#22c55e;color:white;padding:14px 28px;border-radius:8px;text-decoration:none;margin-top:20px;font-weight:bold}
+.section{padding:40px 20px;max-width:900px;margin:auto}
+.card{background:white;padding:20px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.1);margin-bottom:20px}
+.price{color:#16a34a;font-weight:bold;font-size:22px}
+footer{background:#0f172a;color:white;text-align:center;padding:20px}
+</style>
+</head>
+<body>
+<div class="hero">
+<h1>SULEIMAN WEB DESIGN</h1>
+<p>I build fast, beautiful websites for businesses in Niger State</p>
+<a class="btn" href="https://wa.me/2348034437631">Chat Me on WhatsApp</a>
+</div>
+<div class="section">
+<h2>My Packages</h2>
+<div class="card"><h3>Starter - ₦30,000</h3><p class="price">₦30k</p><p>1 Page Website + WhatsApp Button</p></div>
+<div class="card"><h3>Business - ₦50,000</h3><p class="price">₦50k</p><p>5 Pages + Contact Form + Google Map</p></div>
+<div class="card"><h3>Premium - ₦80,000</h3><p class="price">₦80k</p><p>Full Website + Domain + Email</p></div>
+</div>
+<div class="section">
+<div class="card"><h2>Contact</h2><p>📍 Niger State, Nigeria</p><p>📱 WhatsApp Me</p></div>
+</div>
+<footer>© 2026 Suleiman Web Design</footer>
+</body>
+  </html>
