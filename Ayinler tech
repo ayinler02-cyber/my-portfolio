@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SULEIMAN | Pro Web Designer in Minna</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f8fafc;color:#1e293b}
+.hero{background:linear-gradient(135deg,#0f172a,#1e40af);color:white;padding:60px 20px;text-align:center}
+.hero h1{font-size:42px;margin-bottom:10px}
+.hero h1 span{color:#38bdf8}
+.hero p{font-size:18px;opacity:0.9;margin:20px 0}
+.btn{display:inline-block;padding:14px 28px;border-radius:50px;text-decoration:none;font-weight:bold;margin:10px}
+.btn-green{background:#25D366;color:white}
+.btn-white{background:white;color:#0f172a}
+.section{padding:50px 20px;max-width:1000px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:30px}
+.card{background:white;padding:25px;border-radius:15px;box-shadow:0 5px 15px rgba(0,0,0,0.05);text-align:center}
+.card h3{margin:15px 0 10px}
+.price{font-size:32px;color:#1e40af;font-weight:bold}
+.whatsapp-float{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;text-decoration:none;box-shadow:0 5px 15px rgba(0,0,0,0.3)}
+</style>
+</head>
+<body>
+
+<div class="hero">
+<h1>SULEIMAN <span>WEB DESIGN</span></h1>
+<p>I build fast, professional websites for businesses in Minna, Abuja & Nigeria</p>
+<p>📍 Based in Minna, Niger State | ⚡ Delivery in 2-3 Days</p>
+<a class="btn btn-green" href="https://wa.me/2348034437631?text=Hello%20Suleiman,%20I%20need%20a%20website">Chat Me on WhatsApp</a>
+<a class="btn btn-white" href="#pricing">See Prices</a>
+</div>
+
+<div class="section">
+<h2 style="text-align:center;font-size:32px;">What I Can Build For You</h2>
+<div class="cards">
+<div class="card"><h3>💼 Business Website</h3><p>For shops, schools, hotels, companies</p></div>
+<div class="card"><h3>🛒 Online Store</h3><p>Sell your products online with payment</p></div>
+<div class="card"><h3>📄 Portfolio / CV</h3><p>Show your work and get jobs</p></div>
+</div>
+</div>
+
+<div class="section" id="pricing" style="background:#eef2ff;border-radius:20px;">
+<h2 style="text-align:center;font-size:32px;">My Prices</h2>
+<div class="cards">
+<div class="card"><h3>Starter</h3><div class="price">₦40k</div><p>1-Page Website<br>WhatsApp Button<br>Free Domain Setup</p><br><a class="btn btn-green" href="https://wa.me/2348034437631?text=I%20want%20Starter%20Website%2040k">Order Now</a></div>
+<div class="card" style="border:3px solid #1e40af;"><h3>🔥 Business (Popular)</h3><div class="price">₦80k</div><p>5 Pages Website<br>Blog + Contact Form<br>Google Map</p><br><a class="btn btn-green" href="https://wa.me/2348034437631?text=I%20want%20Business%20Website%2080k">Order Now</a></div>
+<div class="card"><h3>Premium Store</h3><div class="price">₦150k</div><p>Full Online Store<br>Paystack Payment<br>Product Upload</p><br><a class="btn btn-green" href="https://wa.me/2348034437631?text=I%20want%20Premium%20Store%20150k">Order Now</a></div>
+</div>
+</div>
+
+<div class="section" style="text-align:center">
+<h2>Why Choose Me?</h2>
+<p style="margin-top:15px;font-size:18px;">✅ No advance payment scam — You see demo first<br>✅ I teach you how to edit yourself<br>✅ Fast support on WhatsApp<br>✅ From Minna — I understand our people</p>
+<br><br>
+<a class="btn btn-green" href="https://wa.me/2348034437631?text=Hello%20Suleiman">Message Me Now — 08034437631</a>
+<p style="margin-top:30px;opacity:0.6;">© 2026 SULEIMAN WEB DESIGN — Minna, Niger State</p>
+</div>
+
+<a class="whatsapp-float" href="https://wa.me/2348034437631">💬</a>
+
+</body>
+</html>
